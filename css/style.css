@@ -35,6 +35,14 @@ canvas {
   top: 0;
   left: 0;
 }
+.tablu{
+display: flex;
+zoom: 0.15;
+position: absolute;
+top: 6rem;
+right: 5rem;
+justify-content: space-between;
+}
 
 a {
   color: #2c98f0;
