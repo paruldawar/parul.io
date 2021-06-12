@@ -54,11 +54,27 @@ a {
     outline: none;
     text-decoration: none !important; }
 
+
 p {
   margin-bottom: 1.5em;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media  screen and (max-width :480px) {
+  .tablu{
+    display: flex;
+    zoom: 0.15;
+
+    position: relative;
+    /* top: 6rem;
+    right: 5rem; */
+    /* top:50rem; */
+    margin-bottom: 200px;
+    justify-content: space-around;
+    }
+}
+
 x{
     margin-bottom: 1.5em;
     background-color:darkkhaki;
